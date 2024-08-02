@@ -5,7 +5,6 @@ export interface ProductInterface {
   price: number;
   imageUrl: string;
   inStock: number;
-  quantitiy: number;
 }
 
 export async function fetchProducts() {
